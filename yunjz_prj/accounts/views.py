@@ -11,7 +11,6 @@ from django.core.urlresolvers import reverse
 from django.template.loader import get_template
 from django.template import Context
 from django.template.context import RequestContext
-from django.http import HttpResponseRedire
 
 def index(request):
 	username = "vincent"
