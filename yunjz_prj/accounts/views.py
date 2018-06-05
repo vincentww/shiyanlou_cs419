@@ -12,10 +12,6 @@ from django.template.loader import get_template
 from django.template import Context
 from django.http import HttpResponseRedirect
 
-#myApp package
-from accounts.forms import  RegisterForm
-from jizhang.data_format_func import auto_gen_categories
-
 def index(request):
 	username = "vincent"
 	return render(request, "accounts/index.html", {"username": username})
