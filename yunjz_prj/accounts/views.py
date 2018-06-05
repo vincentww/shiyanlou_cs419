@@ -18,7 +18,7 @@ from jizhang.data_format_func import auto_gen_categories
 
 def index(request):
 	username = "vincent"
-	return render(request, "accounts/index.html", {"username": username))
+	return render(request, "accounts/index.html", {"username": username})
 
 def register(request):
 	'''注册视图'''
